@@ -40,3 +40,11 @@ num_str = "720"
 num_int = int(num_str) #int(정수형)으로 형태를 변경하고, num_int라는 새로운 변수에 할당
 print(type(num_str))
 print(num_int+1, type(num_int))
+
+# 17 정수를 문자열 100으로 변환
+
+num = 100
+num_str = str(num)
+
+print(num_str + "1")
+print(type(num_str))
