@@ -54,3 +54,24 @@ print(type(num_str))
 data = "15.79"
 data = float(data)
 print(data, type(data))
+
+# 19 문자열을 정수로 변환
+
+year = "2020"
+year_int = int(year)
+print(year_int - 1)
+print(year_int - 2)
+print(year_int - 3)
+
+# 19 - 1 또 다른 방법
+print(int(year) - 1)
+print(int(year) - 2)
+print(int(year) - 3)
+
+# 20 파이썬 계산
+
+price = 48584
+month = 36
+
+total_price = price * month
+print(total_price)
