@@ -48,3 +48,9 @@ num_str = str(num)
 
 print(num_str + "1")
 print(type(num_str))
+
+# 18 문자열을 실수로 변환
+
+data = "15.79"
+data = float(data)
+print(data, type(data))
