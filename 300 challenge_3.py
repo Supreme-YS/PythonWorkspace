@@ -41,3 +41,25 @@ print(url[-2:]) #슬라이싱 방법
 url_split = url.split('.')
 print(url_split)
 print(url_split[1], url_split[-1])
+
+# 28 문자열은 immutable 아래 코드의 실행 결과를 예상해보세요.
+
+lang = 'python'
+#lang[0] = 'P' # 문자열은 수정할 수 없다. Immutable
+print(lang) 
+
+# 29 아래 문자열에서 소문자 'a'를 대문자 'A'로 변경하세요.
+
+string = 'abcdfe2a354a32a'
+string_replace = string.replace('a', 'A')
+print(string_replace)
+
+# 30 아래 코드의 실행 결과를 예상해보세요.
+
+string = 'abcd'
+string.replace('b', 'B')
+print(string)
+# abcd가 그대로 출력됩니다. 왜냐하면 문자열은 변경할 수 없는 자료형이기 때문입니다. replace 메서드를 사용하면 원본은 그대로 둔채로 변경된 새로운 문자열 객체를 리턴해줍니다.
+
+
+
