@@ -20,3 +20,24 @@ print(string[::2])
 
 string = "PYTHON"
 print(string[::-1])
+
+# 25 아래의 전화번호에서 하이푼 ('-')을 제거하고 출력하세요.
+
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace("-", " ")
+print(phone_number1)
+
+# 26 25번 문제의 전화번호를 아래와 같이 모두 붙여 출력하세요.
+
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace("-", "")
+print(phone_number1)
+
+# 27 url 에 저장된 웹 페이지 주소에서 도메인을 출력하세요.
+
+url = "http://sharebook.kr"
+print(url[-2:]) #슬라이싱 방법
+
+url_split = url.split('.')
+print(url_split)
+print(url_split[1], url_split[-1])
