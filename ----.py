@@ -6,6 +6,6 @@ for i in num_list:
     for j in num_list:
  
         print("{} * {} = {}".format(i, j, i*j))
-        print("{} * {} = {}".format(i, j, i*j))
+        
       
  
